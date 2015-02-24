@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC580043-4063-4063-9CEA-75E0743A2B78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{920F54AE-AB17-4AF8-855C-39BC4131EF69}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ModernWebAspNet5", "src\ModernWebAspNet5\ModernWebAspNet5.kproj", "{3D476CE5-5A06-4A3B-AB1B-8A9A18CA4908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D476CE5-5A06-4A3B-AB1B-8A9A18CA4908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D476CE5-5A06-4A3B-AB1B-8A9A18CA4908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D476CE5-5A06-4A3B-AB1B-8A9A18CA4908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D476CE5-5A06-4A3B-AB1B-8A9A18CA4908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D476CE5-5A06-4A3B-AB1B-8A9A18CA4908} = {AC580043-4063-4063-9CEA-75E0743A2B78}
+	EndGlobalSection
+EndGlobal
